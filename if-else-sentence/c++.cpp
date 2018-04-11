@@ -13,12 +13,12 @@ int main()
 		}
 		else {
 			cout << "NO!\n";	// We prefer using 'endl' on cout, commonly.
-								/* In C/C++, '//' can comment out following statements on same line while
-								 * '/ *' and '* /'(without the space) can comment out a block.
-								 * (in other words, makes the block ineffective)
-								 * note: '/ *' and '* /'(without the sapce) can not nest,
-								 * which means you cannot use block comment in another block comment
-								 */
+/* In C/C++, '//' can comment out following statements on same line while
+ * '/ *' and '* /'(without the space) can comment out a block.
+ * (in other words, makes the block ineffective)
+ * note: '/ *' and '* /'(without the sapce) can not nest,
+ * which means you cannot use block comment in another block comment
+ */
 		}
 	}
 	else if (input % 4 == 0) {
