@@ -18,8 +18,8 @@ int main()
 	int input;
 	cin >> input;
 	cout << hanoi(input) << endl;	/* or you can say
-									   int answer = hanoi(input);
-									   cout << answer << endl;
-									*/
+					   int answer = hanoi(input);
+					   cout << answer << endl;
+					*/
 	return 0;
 }
